@@ -3,51 +3,80 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Dewlo · Coming 2027</title>
-<meta name="description" content="Dewlo is an AI goal and habit coach for iPhone, made by Houfu LLC. Coming 2027.">
+<title>Dewlo · Your goal and habit coach, by Houfu LLC</title>
+<meta name="description" content="Dewlo is a friendly goal and habit coach for iPhone, made by Houfu LLC. Write one big goal for the year and reach it one small habit at a time. Coming 2027.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&family=Shantell+Sans:wght@500&display=swap" rel="stylesheet">
-<style>
-  :root{--bg:#C6E4FF;--navy:#13284A;--coral:#FF5A3C;--sun:#FFD23F;--frog:#8FBF7F;--belly:#FFF6DC;--cheek:#F7A6A0}
-  *{box-sizing:border-box}
-  html,body{margin:0;height:100%}
-  body{background:var(--bg);color:var(--navy);font:17px/1.6 "DM Sans",system-ui,sans-serif;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;padding:32px 20px;text-align:center}
-  .badge{width:170px;height:170px;margin:0 auto 18px}
-  .bubble{display:inline-block;background:#fff;border:2.5px solid var(--navy);border-radius:18px;padding:8px 16px;font:500 17px "Shantell Sans",cursive;margin-bottom:14px;position:relative}
-  .bubble:after{content:"";position:absolute;left:50%;bottom:-10px;width:16px;height:16px;background:#fff;border-right:2.5px solid var(--navy);border-bottom:2.5px solid var(--navy);transform:translateX(-50%) rotate(45deg)}
-  h1{font:800 clamp(44px,9vw,72px)/1 "Bricolage Grotesque",system-ui,sans-serif;margin:6px 0 10px;letter-spacing:-.02em}
-  h1 span{background:linear-gradient(transparent 62%,var(--sun) 62%);padding:0 4px}
-  .tag{font-size:19px;max-width:440px;margin:0 auto 22px}
-  .soon{display:inline-block;background:var(--coral);color:#fff;font:700 15px "Bricolage Grotesque",sans-serif;padding:10px 20px;border-radius:999px;letter-spacing:.02em}
-  .contact{margin-top:26px;font-size:16px}
-  .contact a{color:var(--navy);font-weight:700}
-  footer{margin-top:40px;font-size:14px;opacity:.8}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main>
-    <div class="bubble">Every dream starts small.</div>
-    <svg class="badge" viewBox="0 0 200 200" role="img" aria-label="Dewlo the frog">
-      <circle cx="100" cy="100" r="94" fill="#FFD23F" stroke="#13284A" stroke-width="6"/>
-      <ellipse cx="100" cy="122" rx="64" ry="54" fill="#8FBF7F" stroke="#13284A" stroke-width="5"/>
-      <circle cx="68" cy="72" r="22" fill="#8FBF7F" stroke="#13284A" stroke-width="5"/>
-      <circle cx="132" cy="72" r="22" fill="#8FBF7F" stroke="#13284A" stroke-width="5"/>
-      <ellipse cx="100" cy="122" rx="62" ry="52" fill="#8FBF7F"/>
-      <circle cx="68" cy="72" r="10" fill="#13284A"/>
-      <circle cx="132" cy="72" r="10" fill="#13284A"/>
-      <circle cx="71" cy="68" r="3.5" fill="#fff"/>
-      <circle cx="135" cy="68" r="3.5" fill="#fff"/>
-      <ellipse cx="100" cy="144" rx="38" ry="26" fill="#FFF6DC"/>
-      <ellipse cx="60" cy="112" rx="11" ry="7" fill="#F7A6A0"/>
-      <ellipse cx="140" cy="112" rx="11" ry="7" fill="#F7A6A0"/>
-      <path d="M84 110 Q100 124 116 110" fill="none" stroke="#13284A" stroke-width="5" stroke-linecap="round"/>
-    </svg>
-    <h1><span>Dewlo</span></h1>
-    <p class="tag">Your friendly goal and habit coach. Write one big goal for the year, and reach it one small habit at a time.</p>
-    <span class="soon">Coming to iPhone in 2027</span>
-    <p class="contact">Questions? Say hi at <a href="mailto:hello@dewlo.app">hello@dewlo.app</a></p>
-  </main>
-  <footer>Dewlo is an app by Houfu LLC · © 2026 Houfu LLC</footer>
+<header class="top"><div class="wrap">
+  <a class="brand" href="/">Dewlo</a>
+  <nav><a href="#how">How it works</a><a href="#about">About us</a><a href="support.html">Support</a></nav>
+</div></header>
+
+<main>
+<section class="hero"><div class="wrap">
+  <div class="bubble">Every dream starts small.</div>
+  <svg class="badge" viewBox="0 0 200 200" role="img" aria-label="Dewlo the frog">
+    <circle cx="100" cy="100" r="94" fill="#FFD23F" stroke="#13284A" stroke-width="6"/>
+    <ellipse cx="100" cy="122" rx="64" ry="54" fill="#8FBF7F" stroke="#13284A" stroke-width="5"/>
+    <circle cx="68" cy="72" r="22" fill="#8FBF7F" stroke="#13284A" stroke-width="5"/>
+    <circle cx="132" cy="72" r="22" fill="#8FBF7F" stroke="#13284A" stroke-width="5"/>
+    <ellipse cx="100" cy="122" rx="62" ry="52" fill="#8FBF7F"/>
+    <circle cx="68" cy="72" r="10" fill="#13284A"/><circle cx="132" cy="72" r="10" fill="#13284A"/>
+    <circle cx="71" cy="68" r="3.5" fill="#fff"/><circle cx="135" cy="68" r="3.5" fill="#fff"/>
+    <ellipse cx="100" cy="144" rx="38" ry="26" fill="#FFF6DC"/>
+    <ellipse cx="60" cy="112" rx="11" ry="7" fill="#F7A6A0"/><ellipse cx="140" cy="112" rx="11" ry="7" fill="#F7A6A0"/>
+    <path d="M84 110 Q100 124 116 110" fill="none" stroke="#13284A" stroke-width="5" stroke-linecap="round"/>
+  </svg>
+  <h1>Reach your <span>big goal</span>, one small habit at a time.</h1>
+  <p class="lede">Dewlo is a friendly goal and habit coach for iPhone. Everyone has a dream. Write yours down as a one-year goal, and Dewlo helps you get there with tiny daily habits and a short weekly check-in.</p>
+  <span class="soon">Coming to iPhone in 2027</span>
+</div></section>
+
+<section id="how" class="band"><div class="wrap">
+  <h2>How Dewlo works</h2>
+  <div class="grid4">
+    <div class="card"><div class="k">1</div><h3>Pick your goal</h3><p>Choose a popular goal or write your own. Dewlo helps turn it into a clear goal for the year.</p></div>
+    <div class="card"><div class="k">2</div><h3>Start small</h3><p>Dewlo suggests one small habit that fits your real day, so it's easy to begin.</p></div>
+    <div class="card"><div class="k">3</div><h3>Check in daily</h3><p>Tap done, or be honest with "not today." Every honest check-in counts.</p></div>
+    <div class="card"><div class="k">4</div><h3>Review weekly</h3><p>A quick weekly check-in looks at how it went and plans the next step.</p></div>
+  </div>
+</div></section>
+
+<section class="band white"><div class="wrap two">
+  <div>
+    <h2>Popular goals to start with</h2>
+    <p>Most people begin with one of these. You can also write your own.</p>
+    <ul class="chips">
+      <li>Exercise more</li><li>Feel happier</li><li>Eat healthier</li><li>Save money</li><li>Improve overall health</li><li class="own">Write your own goal</li>
+    </ul>
+  </div>
+  <div>
+    <h2>Meet Dewlo</h2>
+    <p>Dewlo is a little frog who grows as your habits stick: from an egg on the day you set your goal, to a tadpole, a froglet, and finally a full frog. Along the way you can unlock outfits for him, like a sweatband, a chef hat or a party hat.</p>
+  </div>
+</div></section>
+
+<section id="about" class="band"><div class="wrap">
+  <h2>About us</h2>
+  <div class="card about">
+    <p>Dewlo is made by <strong>Houfu LLC</strong>, a small app company based in Florida. Houfu builds simple, friendly apps that help people make steady progress on what matters to them. Dewlo is our first app, and we're building it in the open. Follow along on TikTok and Instagram at <strong>@dewloapp</strong>.</p>
+    <dl>
+      <dt>Company</dt><dd>Houfu LLC, a Florida limited liability company</dd>
+      <dt>Address</dt><dd>7901 4th St N, Ste 300, St. Petersburg, FL 33702</dd>
+      <dt>Email</dt><dd><a href="mailto:hello@dewlo.app">hello@dewlo.app</a></dd>
+      <dt>Phone</dt><dd><a href="tel:+15613208993">(561) 320-8993</a></dd>
+    </dl>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <span>Dewlo™ is an app by Houfu LLC · © 2026 Houfu LLC</span>
+  <nav><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="mailto:hello@dewlo.app">Contact</a></nav>
+</div></footer>
 </body>
 </html>
