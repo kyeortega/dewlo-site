@@ -42,3 +42,7 @@ footer{border-top:1.5px solid var(--navy);font-size:14px}
 footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:22px}
 @media (max-width:820px){.grid4{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr;gap:24px}}
 @media (max-width:480px){.grid4{grid-template-columns:1fr}dl{grid-template-columns:1fr}dt{margin-top:6px}}
+
+.waitlist{max-width:520px;margin:32px auto 0;background:#fff;border:2px solid #9BCB98;border-radius:20px;padding:24px 20px}
+.waitlist h2{margin:0 0 6px}.waitlist p{margin:0 0 14px}.waitlist .fine{font-size:13px;color:#555;margin:12px 0 0}
+.waitlist .formkit-form{margin:0 auto!important;max-width:100%!important}
