@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="95" fill="#FFD23F" stroke="#13284A" stroke-width="8"/>
+  <clipPath id="c"><circle cx="100" cy="100" r="91"/></clipPath>
+  <g clip-path="url(#c)">
+    <ellipse cx="100" cy="124" rx="74" ry="58" fill="#8FBF7F" stroke="#13284A" stroke-width="7"/>
+    <circle cx="64" cy="72" r="27" fill="#8FBF7F" stroke="#13284A" stroke-width="7"/>
+    <circle cx="136" cy="72" r="27" fill="#8FBF7F" stroke="#13284A" stroke-width="7"/>
+    <ellipse cx="100" cy="124" rx="70.5" ry="54.5" fill="#8FBF7F"/>
+    <circle cx="64" cy="72" r="13" fill="#13284A"/><circle cx="136" cy="72" r="13" fill="#13284A"/>
+    <circle cx="68" cy="67" r="4.5" fill="#fff"/><circle cx="140" cy="67" r="4.5" fill="#fff"/>
+    <ellipse cx="100" cy="150" rx="42" ry="26" fill="#FFF6DC"/>
+    <ellipse cx="54" cy="116" rx="12" ry="8" fill="#F7A6A0"/><ellipse cx="146" cy="116" rx="12" ry="8" fill="#F7A6A0"/>
+    <path d="M82 112 Q100 128 118 112" fill="none" stroke="#13284A" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <circle cx="100" cy="100" r="95" fill="none" stroke="#13284A" stroke-width="8"/>
+</svg>
