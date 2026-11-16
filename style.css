@@ -47,7 +47,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;
 .waitlist h2{margin:0 0 6px}.waitlist p{margin:0 0 14px}.waitlist .fine{font-size:13px;color:#555;margin:12px 0 0}
 .waitlist .formkit-form{margin:0 auto!important;max-width:100%!important}
 
-.btn{display:inline-block;background:var(--coral);color:#fff;font:700 17px "Bricolage Grotesque",sans-serif;padding:12px 26px;border-radius:999px;text-decoration:none}
+.btn{display:inline-block;background:#D63A1C;color:#fff;font:700 17px "Bricolage Grotesque",sans-serif;padding:12px 26px;border-radius:999px;text-decoration:none}
 .hero-chips{justify-content:center;margin:0 0 18px}
 .soon-line{font-size:14px;max-width:520px;margin:0 auto}
 .hero .waitlist{text-align:left}
